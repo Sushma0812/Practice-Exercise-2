@@ -14,7 +14,7 @@ public class RemoveDupicateNumbers {                 //This class is used to rem
         for (i = 0; i < size; i++) {
             array[i] = reader.nextInt();
         }
-        for (i = 0; i < size - 1; i++)                   //Removal of duplicate elements 
+        for (i = 0; i < size - 1; i++)                   //Removal of duplicate elements
         {
             if (array[i] != array[i + 1]) {
                 temp[j++] = array[i];
